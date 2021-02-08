@@ -8,11 +8,10 @@
   "license": "UNLICENSED",
   "scripts": {
     "start": "sanity start",
-    "build": "sanity build"
+    "build": "sanity build",
+    "deploy": "sanity deploy",
+    "deploy:api": "sanity graphql deploy"
   },
-  "keywords": [
-    "sanity"
-  ],
   "dependencies": {
     "@sanity/base": "^2.3.3",
     "@sanity/components": "^2.2.6",
