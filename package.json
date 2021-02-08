@@ -1,4 +1,17 @@
 {
+  "name": "@yamenai/main",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "author": "Martin",
+  "license": "MIT",
+  "private": true,
+  "scripts": { 
+    "client": "yarn workspace @yamenai/client",
+    "studio": "yarn workspace @yamenai/studio"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
   "devDependencies": {
     "prettier": "2.2.1"
   }
